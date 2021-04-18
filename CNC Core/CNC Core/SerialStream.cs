@@ -69,7 +69,7 @@ StreamWriter log = null;
             Reply = string.Empty;
 
             if (PortParams.IndexOf(":") < 0)
-                PortParams += ":115200,N,8,1";
+                PortParams += ":250000,N,8,1";
 
             string[] parameter = PortParams.Substring(PortParams.IndexOf(":") + 1).Split(',');
 
