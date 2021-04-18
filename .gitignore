@@ -27,3 +27,4 @@ obj/
 # Operating System Files
 # =========================
 *.csproj
+*.xml
